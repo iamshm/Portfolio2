@@ -1,0 +1,89 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(138, 137, 137, 0.3),rgba(187, 187, 187, 0.082)), url(../images/ales-nesetril-Im7lZjxeLhg-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    clip-path: polygon(100% 0%,100% 75%,50% 100%,0% 75%,0% 0%);
+    position: relative;
+}
+.navbar:before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    opacity: .3;
+    z-index: -1;
+    background: linear-gradient(to right,rgba(138, 137, 137, 0.3),rgba(187, 187, 187, 0.082))
+   
+}
+.big-font{
+    font-family: 'Russo One', sans-serif;
+}
+.sub-font{
+    font-family: 'Work Sans', sans-serif;
+}
+.nav-item a{
+    color: white!important; 
+}
+.header-section{
+    width: 100%;
+    height: inherit;
+    color: white;
+    text-align: center ;
+    position: relative;
+}
+.center-div{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.center-div-h1{
+    font-family: 'Russo One', sans-serif;
+    padding-bottom: 2rem;
+    font-size: 4rem;
+    letter-spacing: .3rem;
+}
+.center-div-p{
+    font-family: 'Work Sans', sans-serif;
+    padding-bottom:2rem;
+    font-weight: 600;
+    letter-spacing: .09rem;
+    font-size: 1.5rem;
+}
+.header-button a{
+    border: 1px solid #fff;
+    border-radius: 100px;
+    margin: 0 5px;
+    padding: 12px 35px;
+    color: #fff;
+    letter-spacing: .1rem;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+}
+.header-button a:hover{
+    color: #000;
+    background: #fff;
+    text-decoration: none;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+}
