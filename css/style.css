@@ -41,6 +41,14 @@ p{
     z-index: -1;
     background: linear-gradient(to right,rgba(138, 137, 137, 0.3),rgba(187, 187, 187, 0.082))  
 }
+.bg-dark{
+    transition: 3ms ease;
+    background: transparent!important;
+    
+}
+.bg-dark.scrolled{
+    background: rgb(26, 25, 25)!important;
+}
 .big-font{
     font-family: 'Russo One', sans-serif;
 }
@@ -108,16 +116,15 @@ p{
     height: auto;
     margin: 100px 0;
     text-align: center;
+    padding-top: 4rem;
 }
 .projects p{
     color:#1a1212;
 }
 .extra-div{
-    background: #fff;
-    /* height: 35vh;
-    width: 20vh; */
+    background: #fff;  
     border: medium none;
-    padding: 50px!important;
+    padding: 45px!important;
     border-radius: 3px;
     transition: 0.3s;
 }
@@ -153,7 +160,8 @@ p{
 .levelskills{
     background: #222020;
     color: white;
-    padding: 1.5rem 0;
+    padding: 1.5rem 1rem;
+    justify-items: center;
 }
 .name{
     padding-bottom: .5rem;
@@ -194,5 +202,17 @@ html{
 @media only screen and (max-width: 320px) {
     .center-div-h1{
         font-size: 3rem;
+    }
+    .header-button a{
+        border: 1.5px solid #fff;
+        border-radius: 100px;
+        margin: 0 2px;
+        padding: 9px 25px;
+        color: #fff;
+        letter-spacing: .06rem;
+        text-align: center;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 600;
+        
     }
   }
