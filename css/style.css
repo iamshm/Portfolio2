@@ -143,14 +143,12 @@ p{
     transform: translateY(-.3rem);
     background: rgb(252, 252, 252);
     filter: brightness(1.08);
-    
 }
 .project-head{
     font-family: 'Russo One', sans-serif;
     color: rgb(0, 0, 0);
     padding: 1.3rem;
 }
-
 /* end of projects */
 
 /* level skills */
