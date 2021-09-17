@@ -1,3 +1,3 @@
 # My Portfolio
 
-[Link to site](http://iamshm.me/)
+[Link to site](https://iamshm.github.io/Portfolio2/)
